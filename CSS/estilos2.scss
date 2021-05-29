@@ -1,0 +1,21 @@
+$background: #baece6;
+$color: #b848ee;
+$conjunto: parrafo;
+
+.cabecera {
+	background-color: $background;
+}
+
+.pie_pagina {
+	background-color: $background;
+}
+
+h2 {
+	color: $color;
+}
+
+@each $bucle in $conjunto {
+	.seccion__#{$bucle} {
+		color: #2a2727;
+	}
+}

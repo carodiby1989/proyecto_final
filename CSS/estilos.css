@@ -1,0 +1,93 @@
+@media (max-width: 991px) {
+	.cuerpo__card_flex {
+		flex-wrap: wrap;
+	}
+
+}
+
+/*h2 {
+	color: #b848ee;
+
+}*/
+
+h1 {
+	color: #b848ee;
+}
+
+
+/*.cabecera {
+	background-color: #baece6;
+}*/
+
+
+.pie_pagina {
+	/*background-color: #baece6;*/
+	width: 100%;
+	height: 100%;
+}
+
+.pie_pagina__info{
+	font-weight: bold;
+	/*text-align: center;*/
+}
+
+.pie_pagina__redes h3 {
+		color: #b848ee;
+}
+
+.pie_pagina__redes a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.cuerpo {
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin-right: 10px;
+	background-image: linear-gradient( #efb1ec, #b6e3e3, #c0b6e3);
+	padding-bottom: 30px;
+
+}
+
+.cuerpo__card_flex {
+ display: flex;
+}
+
+.cuerpo__prod {
+	display: inline-block;
+	width: 300px;
+	text-decoration: none;
+	color: #d714f6;
+	box-sizing: content-box;
+	margin: 10px;
+    border: 2px solid violet;
+    text-align: center;
+}
+
+.cuerpo__prod a {
+	text-decoration: none;
+	color: #d714f6;
+}
+
+.cuerpo__form {
+	    display: inline-block;
+}
+
+.cuerpo__form p {
+	color: #b848ee;
+}
+
+.cuerpo__producto {
+	text-align: center;
+}
+
+.cuerpo__envios {
+	text-align: center;
+}
+
+.cuerpo__tabla {
+text-align: center;
+}
